@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset and generated artifacts
+data/*
+!data/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+confusion_matrix.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
